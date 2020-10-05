@@ -11,6 +11,8 @@
 
 body {
     text-align: center;
+    color: #008C94;
+    font-family: 'Oxygen', sans-serif;
 }
 
 header {
@@ -19,6 +21,7 @@ header {
     background-image: url(banner.jpg);
     width: 100%;
     height: 50em;
+    padding-top: 5em;
 }
 
 #logo {
@@ -35,13 +38,24 @@ button {
     justify-self: center;
     border-radius: 2em;
     width: 10em;
-    height: 5em;
+    height: 4em;
     background-color: #008C94;
     font-size: 1em;
 }
+
+a {
+    font-family: 'Oxygen', sans-serif;
+}
+
 button:hover {
     text-decoration: underline;
+    border: 0.2em solid white;
 }
+
+button a:hover {
+    color: white;
+}
+
 .carousel {
     width: 100%;
     overflow: scroll;
@@ -73,13 +87,22 @@ button:hover {
     transform: translate3d(100px, 0, 0);
 }
 
-p {
+#quoteContainer {
     font-size: 3em;
+    padding-bottom: 1em;
 }
 
 .about {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    padding: 2em;
+    background-color: #008C94;
+    color: white;
+}
+
+.tools h2 {
+   padding: 2em;
+   font-size: 2em;
 }
 
 .iconContainer {
@@ -92,6 +115,27 @@ p {
     color: blue;
 }
 
-.map {
-    margin-top: 4em;
+.iconContainer img {
+    width: 10em;
+    padding: 2em;
+}
+
+#miro {
+    width: 9.5em;
+}
+
+#trello {
+    width: 9em;
+}
+
+.iconRedondeado {
+    border-radius: 5em;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+#love {
+    width: 0.8em;
 }

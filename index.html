@@ -4,7 +4,8 @@
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <title> Atom five's website</title>
-            <link rel= "stylesheet" href="style.css">  </link>
+            <link rel= "stylesheet" href="style.css"></link>
+            <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@700&display=swap" rel="stylesheet">
         </head>
         <body>
                 <header>
@@ -12,53 +13,60 @@
                     <img src = "logo.png" alt = "logo" id= "logo"> </img>
                     <button><a href="https://atomicdesign.bradfrost.com/table-of-contents/">Atomic Thinking</a></button>
                  </header>
-                <section class="carousel">
+                <main>
+                    <section class="carousel">
                         <div class="carouselContainer">
                             <div class="carouselItem">
-                                <img src = "ale.jpeg" alt = "aleImg" id= "aleImg"> </img>
+                                <img src = "imagenes/ale.jpeg" alt = "aleImg" id= "aleImg"> </img>
                             </div>
                             <div class="carouselItem">
-                                <img src = "olga.png" alt = "olgaImg" id= "olgaImg"> </img>
+                                <img src = "imagenes/olga.png" alt = "olgaImg" id= "olgaImg"> </img>
                             </div>
                             <div class="carouselItem">
-                                <img src = "sergi.jpg" alt = "sergImg" id= "sergImg"> </img>
+                                <img src = "imagenes/sergi.jpg" alt = "sergImg" id= "sergImg"> </img>
                             </div>
                             <div class="carouselItem">
-                                <img src = "jorge.png" alt = "jorImg" id= "jorImg"> </img>
+                                <img src = "imagenes/jorge.png" alt = "jorImg" id= "jorImg"> </img>
                             </div>
                             <div class="carouselItem">
-                                <img src = "lore.jpg" alt = "loreImg" id= "loreImg"> </img>
+                                <img src = "imagenes/lore.jpg" alt = "loreImg" id= "loreImg"> </img>
                             </div>
                                                       
                         </div>
-                </section>
-
-                <p>"Llenos de potencial atómico"</p>
-                    
-                <section class = "about"> 
-                    <h2>About us</h2>
-                    <article><h3>Rules</h3></article>
-                    <article><h3>Values</h3></article>
-                    <div class="brief">Brief about us</div>
-                </section>
-
-                <section class= "tools"><h2>Our communication Tools</h2>
-                    <div class="iconContainer">
-                        <img src="" alt="slack"></img>
-                        <img src="" alt="miro"></img>
-                        <img src="" alt="git"></img>
-                        <img src="" alt="whatsapp"></img>
-                        <img src="" alt="trello"></img>
-                        <img src="" alt="zoom"></img>
+                    </section>
+                    <div id="quoteContainer">
+                        <p>"Llenos de potencial atómico"</p>
                     </div>
-                </section>
+                    
+                    <section class = "about"> 
+                        <article><h3>Rules</h3>
+                            <ul>
+                                <li>Comunicación activa</li>
+                                <li>Colaboración</li>
+                                <li>Objetivo común</li>
+                            </ul>
+                        </article>
+                        <article><h3>Values</h3>
+                            <ul>
+                                <li>Honestidad</li>
+                                <li>Respeto</li>
+                                <li>Responsabilidad</li>
+                            </ul>
+                        </article>
+                    </section>
 
-                <section class="map">
-                    <h2>Where are we?</h2>
-                    <img src="" alt="map">
-                </section>
+                    <section class= "tools"><h2>Our communication Tools</h2>
+                        <div class="iconContainer">
+                            <img src="herramientas/slack.png" alt="slack"></img>
+                            <img src="herramientas/miro.png" alt="miro" class="iconRedondeado" id="miro"></img>
+                            <img src="herramientas/github.png" alt="git"></img>
+                            <img src="herramientas/whats.png" alt="whatsapp"></img>
+                            <img src="herramientas/trello.png" alt="trello" class="iconRedondeado" id="trello"></img>
+                            <img src="herramientas/zoom.png" alt="zoom"></img>
+                        </div>
+                    </section>
                 </main>
-                <footer><p> Design <img src="" alt="heart"> with love by Atom´s five</p></footer>
+                <footer><p> Design <img src="herramientas/love.png" alt="heart" id="love"> with love by Atom´s five</p></footer>
 
         </body>
 </html>
