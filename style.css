@@ -87,6 +87,11 @@ p {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 
+.carousel-item__details:hover {
+    opacity: 1;
+    color: blue;
+}
+
 .map {
     margin-top: 4em;
 }
