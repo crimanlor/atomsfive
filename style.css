@@ -74,4 +74,5 @@ h1 {
 }
 .carousel-item__details:hover {
     opacity: 1;
+    color: blue;
 }
