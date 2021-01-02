@@ -2,7 +2,7 @@
 
 Realizar una landing page para presentar a nuestro equipo utilizando HTML y CSS.
 
-## Prerequisitos y herramientas 🛠
+## Prerrequisitos y herramientas 🛠
 
 - Visual Studio Code
 - Control de versiones con git
